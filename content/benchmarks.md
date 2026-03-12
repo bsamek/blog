@@ -4,6 +4,7 @@ slug: "benchmarks"
 date: 2026-03-12T00:00:00+00:00
 draft: false
 url: /benchmarks/
+hide_header: true
 ---
 
 This is a list of AI benchmarks I'm watching. Last updated 2026-03-12.

@@ -4,10 +4,22 @@
   {{- partial "head.html" . -}}
 </head>
 <body>
-  {{- partial "header.html" . -}}
-  <main>
-    {{- block "main" . }}{{- end }}
-  </main>
-  {{- partial "footer.html" . -}}
+  <div class="site-layout">
+    <aside class="sidebar">
+      <a href="/" class="site-title">{{ .Site.Title }}</a>
+      <nav>
+        {{ $currentURL := .RelPermalink }}
+        {{ range .Site.Menus.main }}
+        {{ $isActive := or (eq .URL $currentURL) (and (eq .URL "/") (hasPrefix $currentURL "/posts/")) }}
+        <a href="{{ .URL }}"{{ if $isActive }} class="active"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </aside>
+    <div class="site-content">
+      <main>
+        {{- block "main" . }}{{- end }}
+      </main>
+    </div>
+  </div>
 </body>
 </html>
