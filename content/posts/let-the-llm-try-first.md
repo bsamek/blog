@@ -16,3 +16,7 @@ This matches some other recent experiences. I made a read-it-later app and ended
 I think I'm learning more this way than I used to. In the past I searched the web, and I read Stack Overflow, blogs, and newsletters. But search is difficult when your problem depends on a bunch of specific context. I didn't even know to ask the question, is there something easier than AWS for this? LLMs are good at taking that pile of context and turning it into something concrete.
 
 So I think it's worth giving an LLM a shot when you have a problem, even if you don't think an LLM could solve it in one shot, before you spend too much time decomposing it yourself. It might solve it outright. And if it doesn't, you still learn something useful about today's capabilities, which informs which tasks you give it in the future, and how you should break those tasks down.
+
+This echoes what Ethan Mollick [wrote recently](https://www.oneusefulthing.org/p/real-ai-agents-and-real-work):
+
+> [The OpenAI paper](https://cdn.openai.com/pdf/d5eb7428-c4e9-4a33-bd86-86dd4bcf12ce/GDPval.pdf) suggested that experts can work with AI to solve problems by delegating tasks to an AI as a first pass and reviewing the work. If it isn't good enough, they should try a couple of attempts to give corrections or better instructions. If that doesn't work, they should just do the work themselves. If experts followed this workflow, the paper estimates they would get work done forty percent faster and sixty percent cheaper, and, even more importantly, retain control over the AI.
