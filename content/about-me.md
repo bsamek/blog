@@ -12,4 +12,4 @@ I began my career as a sysadmin in public and university libraries. I’ve been 
 
 I live in Brooklyn with my partner Rakhel and pup Sila.
 
-<mark>Email</mark> me at brian [dot] samek [at] gmail [dot] com.
+<mark>Email</mark> me at brian [at] samek [dot] fyi.
