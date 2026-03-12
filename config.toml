@@ -1,0 +1,19 @@
+baseURL = "https://samek.fyi"
+title = "samek.fyi"
+languageCode = "en-us"
+
+[permalinks]
+  posts = "/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About Me"
+    url = "/about-me/"
+    weight = 2
