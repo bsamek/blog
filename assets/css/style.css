@@ -91,6 +91,22 @@ a:hover {
   right: calc(100% + 0.3rem);
 }
 
+.sidebar-social {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.sidebar-social a {
+  color: var(--meta);
+  transition: color 0.15s;
+}
+
+.sidebar-social a:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+
 .site-content {
   flex: 1;
   min-width: 0;
@@ -148,6 +164,11 @@ a:hover {
 
   .sidebar nav a.active::before {
     display: none;
+  }
+
+  .sidebar-social {
+    margin-top: 0;
+    margin-left: auto;
   }
 
   .site-content {
