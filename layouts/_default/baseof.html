@@ -6,7 +6,7 @@
 <body>
   <div class="site-layout">
     <aside class="sidebar">
-      <a href="/" class="site-title">{{ .Site.Title }}</a>
+      <a href="/"><img src="/images/headshot.jpg" alt="Brian Samek" class="sidebar-avatar"></a>
       <nav>
         {{ $currentURL := .RelPermalink }}
         {{ range .Site.Menus.main }}
