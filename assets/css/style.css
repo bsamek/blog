@@ -98,6 +98,10 @@ a:hover {
   max-width: 640px;
 }
 
+.sidebar > a:first-child {
+  flex-shrink: 0;
+}
+
 .sidebar-avatar {
   width: 72px;
   height: 72px;
