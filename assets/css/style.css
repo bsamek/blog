@@ -91,6 +91,14 @@ a:hover {
   right: calc(100% + 0.3rem);
 }
 
+#menu-toggle {
+  display: none;
+}
+
+.menu-toggle-label {
+  display: none;
+}
+
 .sidebar-social {
   display: flex;
   gap: 0.75rem;
@@ -144,8 +152,9 @@ a:hover {
   .sidebar {
     width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
     border-right: none;
     border-bottom: 1px solid var(--border);
     padding: 1rem;
@@ -156,10 +165,37 @@ a:hover {
     height: 40px;
   }
 
+  .menu-toggle-label {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: auto;
+    color: var(--text);
+    line-height: 1;
+    user-select: none;
+  }
+
+  .sidebar-menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.75rem;
+    border-top: 1px solid var(--border);
+    padding-top: 0.75rem;
+  }
+
+  #menu-toggle:checked ~ .sidebar-menu {
+    display: flex;
+  }
+
   .sidebar nav {
-    flex-direction: row;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
     margin-top: 0;
+  }
+
+  .sidebar nav a {
+    padding: 0.25rem 0;
   }
 
   .sidebar nav a.active::before {
@@ -168,7 +204,7 @@ a:hover {
 
   .sidebar-social {
     margin-top: 0;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .site-content {
