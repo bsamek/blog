@@ -102,7 +102,7 @@ a:hover {
 .sidebar-social {
   display: flex;
   gap: 0.75rem;
-  margin-top: auto;
+  margin-top: 1.5rem;
 }
 
 .sidebar-social a {
