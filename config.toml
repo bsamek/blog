@@ -18,6 +18,10 @@ languageCode = "en-us"
     url = "/benchmarks/"
     weight = 2
   [[menu.main]]
+    name = "BJJ"
+    url = "/bjj/"
+    weight = 3
+  [[menu.main]]
     name = "Blog"
     url = "/"
-    weight = 3
+    weight = 4
