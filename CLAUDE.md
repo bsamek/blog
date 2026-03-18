@@ -13,7 +13,20 @@ Open http://localhost:1313. The `-D` flag includes draft posts.
 ## Deploy
 
 ```bash
-hugo && npx wrangler pages deploy public --project-name blog
+hugo && \
+  (cd ~/src/bjj-quartz && npx quartz build -o public) && \
+  cp -r ~/src/bjj-quartz/public/ public/bjj/ && \
+  npx wrangler pages deploy public --project-name blog
+```
+
+## BJJ Notes (Quartz)
+
+The `/bjj` subpath serves an Obsidian vault (`~/src/bjj`) via [Quartz v4](https://quartz.jzhao.xyz), set up at `~/src/bjj-quartz`. It is not linked in the site nav (hidden/unlisted).
+
+Preview Quartz locally:
+
+```bash
+cd ~/src/bjj-quartz && npx quartz build --serve --port 8080
 ```
 
 ## Commit / Push / Deploy workflow
