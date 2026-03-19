@@ -1,40 +1,52 @@
 # Blog — samek.fyi
 
-Source for [samek.fyi](https://samek.fyi). Built with Hugo, deployed to Cloudflare Pages.
+Source for [samek.fyi](https://samek.fyi). Two repos produce the site:
+
+| Repo | Path | Branch | Purpose |
+|------|------|--------|---------|
+| `bsamek/blog` | `~/src/blog` | `main` | Hugo blog (this repo) |
+| `bsamek/quartz` (fork) | `~/src/bjj-quartz` | `v4` | Quartz SSG for BJJ notes at `/bjj` |
+
+The Obsidian vault at `~/src/bjj` is symlinked as `bjj-quartz/content`. It syncs via Obsidian Sync (no git).
 
 ## Preview locally
 
+Hugo blog:
+
 ```bash
-hugo server -D
+hugo server -D          # http://localhost:1313
 ```
 
-Open http://localhost:1313. The `-D` flag includes draft posts.
+Quartz BJJ notes:
+
+```bash
+cd ~/src/bjj-quartz && npx quartz build --serve --port 8080   # http://localhost:8080
+```
 
 ## Deploy
 
 ```bash
-hugo && \
-  (cd ~/src/bjj-quartz && npx quartz build -o public) && \
-  cp -r ~/src/bjj-quartz/public/ public/bjj/ && \
-  npx wrangler pages deploy public --project-name blog
+./deploy.sh
 ```
 
-## BJJ Notes (Quartz)
-
-The `/bjj` subpath serves an Obsidian vault (`~/src/bjj`) via [Quartz v4](https://quartz.jzhao.xyz), set up at `~/src/bjj-quartz`. It is not linked in the site nav (hidden/unlisted).
-
-Preview Quartz locally:
-
-```bash
-cd ~/src/bjj-quartz && npx quartz build --serve --port 8080
-```
+This builds Hugo, builds Quartz, copies Quartz output into `public/bjj/`, and deploys to Cloudflare Pages.
 
 ## Commit / Push / Deploy workflow
 
-The dependency chain is: **commit → push → deploy**.
+**Blog repo (`~/src/blog`)** — the dependency chain is: **commit → push → deploy**.
 
 When the user asks for any step, always run all preceding steps first:
 
-- **"deploy"** → commit, push, then deploy
+- **"deploy"** → commit, push, then deploy (via `./deploy.sh`)
 - **"push"** → commit, then push
 - **"commit"** → commit only
+
+**Quartz repo (`~/src/bjj-quartz`)** — committed and pushed independently when changes occur:
+
+```bash
+cd ~/src/bjj-quartz && git push origin v4
+```
+
+## SSH note
+
+The user connects via SSH and cannot use 1Password for commit signing. Use `git -c commit.gpgsign=false` for all commits.
