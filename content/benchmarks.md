@@ -27,5 +27,6 @@ This is a list of AI benchmarks I'm watching. Last updated March 12, 2026.
 - [Terminal-Bench](https://www.tbench.ai/leaderboard/terminal-bench/2.0)
 - [Vending-Bench 2](https://andonlabs.com/evals/vending-bench-2)
 - [Vending-Bench Arena](https://andonlabs.com/evals/vending-bench-arena)
+- [Vals.ai](https://www.vals.ai/home)
 - [VoxelBench](https://voxelbench.ai/leaderboard)
 - [WeirdML](https://htihle.github.io/weirdml.html)
