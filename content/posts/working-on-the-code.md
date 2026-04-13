@@ -19,6 +19,6 @@ I wrote a feature at work in a day that previously would have taken a week. Alth
 - Asking people if actually like it.
 - And much more.
 
-All of those things already existed alongside writing code, but writing code used to take so much longer. Now that it's cheaper, those other things are a bigger fraction of the time, which means the leverage you get from speeding *them* up is larger than it used to be. You always wanted your tests to run fast, but now that matters more. You always wanted fast access to a staging environment, but now you want it faster. You always wanted user feedback, and now you want it more frequently.
+All of those things already existed alongside writing code, but writing code used to take so much longer. Now that it's cheaper, those other things are a bigger fraction of the time, which means the leverage you get from speeding *them* up is larger than it used to be. You always wanted your tests to run fast, but now that matters more. You always wanted fast access to a staging environment, but now you want it faster. You always wanted user feedback, but now you want it more frequently.
 
 I think this means that the, counterintuitively, being able to write code faster will spur innovation in things far from the code, since we'll get more benefit from improving them. Also, our intuitions about how much time it's worth spending doing those things will be wrong, and we'll need to nudge ourselves to spend extra time on them.
