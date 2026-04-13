@@ -7,7 +7,7 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated March 12, 2026.
+This is a list of AI benchmarks I'm watching. Last updated April 12, 2026.
 
 - [ARC Prize Leaderboard](https://arcprize.org/leaderboard)
 - [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/leaderboards/models)
