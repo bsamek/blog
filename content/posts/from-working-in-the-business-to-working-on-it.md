@@ -7,7 +7,7 @@ draft: false
 
 There's an old business idea, usually attributed to Michael Gerber, about the difference between working *in* your business and working *on* your business. Working in the business is doing the thing. Working on the business is improving how the business works. I think this distinction works in an analogous way in software engineering. Writing code is working *in* the business. Everything around the code is working *on* it.
 
-I wrote a feature at work in a day that previously would have taken a week. Writing the code was faster, but everything else around it didn't shrink:
+I wrote a feature at work in a day that previously would have taken a week. Writing the code was faster, but everything else around it stayed the same:
 
 - Doing product research. 
 - Getting approval for the idea. 
