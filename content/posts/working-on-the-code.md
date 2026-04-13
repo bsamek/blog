@@ -7,6 +7,18 @@ draft: true
 
 There's an old business idea, usually attributed to Michael Gerber, about the difference between working *in* your business and working *on* your business. Working in the business is doing the thing. Working on the business is improving how the business works.
 
-I wrote a feature at work recently in a day that previously would have taken more than a week. The difference was that writing code — the part that used to dominate — took a much smaller fraction of the time. But everything around the code didn't shrink. Getting approval for the idea. Doing product research. Writing and running tests. Validating in staging. Shipping it and seeing if people actually like it. That stuff took the same amount of time it always did, and it was suddenly most of the day. The coding was working *in* the feature. Everything around it was working *on* it.
+I wrote a feature at work in a day that previously would have taken a week. Although writing the code was faster, everything else around the code didn't shrink:
 
-All of those things already existed alongside writing code, but writing code used to take so long that it dominated the schedule. Now that it's cheap, those other things are a bigger fraction of the time — which means the leverage you get from speeding *them* up is larger than it used to be. You always wanted your tests to run fast, but now it matters more. You always wanted easy access to a staging environment, but now you want it even faster. You always wanted quick customer feedback, but now the cost of waiting for it is more obvious. Investing in those things was always a good idea. Now it's a better one.
+- Getting approval for the idea. 
+- Doing product research. 
+- Running tests. 
+- Validating in staging. 
+- Making sure the architecture makes sense.
+- Reasoning about the maintenance burden.
+- Deploying it to production.
+- Asking people if actually like it.
+- And much more.
+
+All of those things already existed alongside writing code, but writing code used to take so much longer. Now that it's cheaper, those other things are a bigger fraction of the time, which means the leverage you get from speeding *them* up is larger than it used to be. You always wanted your tests to run fast, but now that matters more. You always wanted fast access to a staging environment, but now you want it faster. You always wanted user feedback, and now you want it more frequently.
+
+I think this means that the, counterintuitively, being able to write code faster will spur innovation in things far from the code, since we'll get more benefit from improving them. Also, our intuitions about how much time it's worth spending doing those things will be wrong, and we'll need to nudge ourselves to spend extra time on them.
