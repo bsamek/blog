@@ -2,7 +2,7 @@
 title: "From working in the business to working on it"
 slug: "from-working-in-the-business-to-working-on-it"
 date: 2026-04-12T00:00:00+00:00
-draft: true
+draft: false
 ---
 
 There's an old business idea, usually attributed to Michael Gerber, about the difference between working *in* your business and working *on* your business. Working in the business is doing the thing. Working on the business is improving how the business works. I think this distinction works in an analogous way in software engineering. Writing code is working *in* the business. Everything around the code is working *on* it.
