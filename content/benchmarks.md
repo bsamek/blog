@@ -29,4 +29,3 @@ This is a list of AI benchmarks I'm watching. Last updated March 12, 2026.
 - [Vending-Bench Arena](https://andonlabs.com/evals/vending-bench-arena)
 - [VoxelBench](https://voxelbench.ai/leaderboard)
 - [WeirdML](https://htihle.github.io/weirdml.html)
-- [Yupp Leaderboard](https://yupp.ai/leaderboard/explore)
