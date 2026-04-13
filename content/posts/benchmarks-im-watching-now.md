@@ -45,3 +45,4 @@ Here's my list.
 * [Vending-Bench: Testing long-term coherence in agents | Andon Labs](https://andonlabs.com/evals/vending-bench) - Coherence over long periods of time. Grok 4 does well here.
 * [VoxelBench](https://voxelbench.ai/leaderboard) - Minecraft-style benchmark, but [MCBench](https://mcbench.ai/leaderboard) wasn't getting updated enough, so I started following VoxelBench instead. Surprising result that Gemini 2.5 Deep Think beats GPT-5-high and GPT-5 Pro.
 * [Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/) - Test cases from Wolfram's book about the Wolfram Language. GPT-5 does poorly enough that I wonder how GPT-5-high would do.
+* [Yupp Leaderboard](https://yupp.ai/leaderboard/explore) - Competitor to LMArena. Puts Gemini 2.5 Pro lower down than LMArena, which I'd expect, but then has Opus 4 nearly 100 Elo points higher than Opus 4.1, which surprises me.
