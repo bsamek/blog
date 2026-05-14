@@ -17,10 +17,10 @@ hugo server -D          # http://localhost:1313
 ## Deploy
 
 ```bash
-./deploy.sh
+op run --env-file .env.deploy -- ./deploy.sh
 ```
 
-This builds Hugo and deploys to Cloudflare Pages.
+This builds Hugo and deploys to Cloudflare Pages. `.env.deploy` is ignored and should contain the local 1Password reference for `CLOUDFLARE_API_TOKEN`.
 
 ## Commit / Push / Deploy workflow
 
@@ -28,6 +28,6 @@ This builds Hugo and deploys to Cloudflare Pages.
 
 When the user asks for any step, always run all preceding steps first:
 
-- **"deploy"** → commit, push, then deploy (via `./deploy.sh`)
+- **"deploy"** → commit, push, then deploy (via `op run --env-file .env.deploy -- ./deploy.sh`)
 - **"push"** → commit, then push
 - **"commit"** → commit only
