@@ -7,9 +7,8 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated May 28, 2026.
+This is a list of AI benchmarks I'm watching. Last updated May 27, 2026.
 
-- [Scale Labs](https://labs.scale.com/leaderboard)
 - [ARC Prize](https://arcprize.org/leaderboard)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
 - [Bullshit Benchmark](https://petergpt.github.io/bullshit-benchmark/viewer/index.html)
@@ -28,6 +27,7 @@ This is a list of AI benchmarks I'm watching. Last updated May 28, 2026.
 - [Mercor Apex](https://mercor.com/apex/)
 - [OpenRouter Rankings](https://openrouter.ai/rankings)
 - [ProgramBench](https://programbench.com/)
+- [Scale Labs](https://labs.scale.com/leaderboard)
 - [SimpleBench](https://simple-bench.com/)
 - [Terminal-Bench](https://www.tbench.ai/leaderboard/terminal-bench/2.0)
 - [Vals Index](https://www.vals.ai/benchmarks/vals_index)

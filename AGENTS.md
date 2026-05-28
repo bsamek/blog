@@ -14,6 +14,10 @@ Hugo blog:
 hugo server -D          # http://localhost:1313
 ```
 
+## Dates
+
+For blog content and repo work, interpret relative dates such as "today" and "tomorrow" in the user's timezone, `America/New_York`. Do not use UTC for user-facing dates unless explicitly requested.
+
 ## Deploy
 
 ```bash
