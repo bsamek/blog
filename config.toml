@@ -1,6 +1,6 @@
 baseURL = "https://samek.fyi"
 title = "samek.fyi"
-languageCode = "en-us"
+locale = "en-us"
 
 [permalinks]
   posts = "/:slug/"
