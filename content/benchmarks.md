@@ -9,7 +9,7 @@ hide_header: true
 
 This is a list of AI benchmarks I'm watching. Last updated May 28, 2026.
 
-- [AI Model Leaderboards & Benchmarks | Scale Labs](https://labs.scale.com/leaderboard)
+- [Scale Labs](https://labs.scale.com/leaderboard)
 - [ARC Prize](https://arcprize.org/leaderboard)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
 - [Bullshit Benchmark](https://petergpt.github.io/bullshit-benchmark/viewer/index.html)
