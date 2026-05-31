@@ -7,7 +7,7 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated May 27, 2026.
+This is a list of AI benchmarks I'm watching. Last updated May 31, 2026.
 
 - [ARC Prize](https://arcprize.org/leaderboard)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
@@ -29,6 +29,7 @@ This is a list of AI benchmarks I'm watching. Last updated May 27, 2026.
 - [ProgramBench](https://programbench.com/)
 - [Scale Labs](https://labs.scale.com/leaderboard)
 - [SimpleBench](https://simple-bench.com/)
+- [SWE-rebench Leaderboard](https://swe-rebench.com/)
 - [Terminal-Bench](https://www.tbench.ai/leaderboard/terminal-bench/2.0)
 - [Vals Index](https://www.vals.ai/benchmarks/vals_index)
 - [Vending-Bench 2](https://andonlabs.com/evals/vending-bench-2)
