@@ -31,7 +31,6 @@ This is a list of AI benchmarks I'm watching. Last updated June 7, 2026.
 - [MathArena](https://matharena.ai/)
 - [Mercor Apex](https://mercor.com/apex/)
 - [METR Time Horizons](https://metr.org/time-horizons/)
-- [OpenRouter Rankings](https://openrouter.ai/rankings)
 - [Pencil Puzzle Bench](https://ppbench.com/)
 - [ProgramBench](https://programbench.com/)
 - [RuneScape Bench](https://maxbittker.github.io/runebench/)
