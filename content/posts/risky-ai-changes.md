@@ -2,7 +2,7 @@
 title: "When a change feels risky"
 slug: "risky-ai-changes"
 date: 2026-06-12T00:00:00-04:00
-draft: true
+draft: false
 ---
 
 I'm trying to get into a new habit. Previously, when I wrote some code, and it felt risky, I would reread the code more carefully, read the surrounding code, try it out locally or in staging, and monitor closely after deploying.
