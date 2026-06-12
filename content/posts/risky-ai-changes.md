@@ -7,7 +7,7 @@ draft: false
 
 I'm trying to get into a new habit. Previously, when I wrote some code, and it felt risky, I would reread the code more carefully, read the surrounding code, try it out locally or in staging, and monitor closely after deploying.
 
-When I write code with AI, I'm grateful to have the intuition that a particular code change is risky, since that represents years of experience with the types of things I work on. However, the next intuition, to reach for the things I used to try, now skips the best first move.
+When I write code with AI, I'm grateful to have the intuition that a particular code change is risky, since that represents years of experience with the types of things I work on. However, the next intuition, to reach for the things I used to try, now skips the best next move.
 
 Now that we have AI, we can do two new things.
 
