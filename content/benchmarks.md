@@ -12,7 +12,6 @@ This is a list of AI benchmarks I'm watching. Last updated June 11, 2026.
 - [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
-- [Boggs Benchmarks](https://boggs.tech/posts/benchmarks/)
 - [Bullshit Benchmark](https://petergpt.github.io/bullshit-benchmark/viewer/index.html)
 - [CAIS AI Dashboard](https://dashboard.safe.ai/)
 - [CursorBench](https://cursor.com/cursorbench)
@@ -48,3 +47,10 @@ This is a list of AI benchmarks I'm watching. Last updated June 11, 2026.
 - [VoxelBench](https://voxelbench.ai/leaderboard)
 - [WeirdML](https://htihle.github.io/weirdml.html)
 - [Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/)
+
+## Meta
+
+Composite indexes built from other benchmarks' published scores.
+
+- [Boggs Benchmarks](https://boggs.tech/posts/benchmarks/)
+- [Epoch Capabilities Index](https://epoch.ai/benchmarks/eci)
