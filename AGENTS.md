@@ -18,6 +18,10 @@ hugo server -D          # http://localhost:1313
 
 For blog content and repo work, interpret relative dates such as "today" and "tomorrow" in the user's timezone, `America/New_York`. Do not use UTC for user-facing dates unless explicitly requested.
 
+## URLs
+
+Posts render at the site root, not under `/posts/`: a post with slug `foo` is live at `https://samek.fyi/foo/`. Don't verify deploys against `/posts/<slug>/` — that path returns 200 even when wrong (redirect/fallback). Check content at the root URL instead.
+
 ## Deploy
 
 ```bash
