@@ -7,11 +7,12 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated June 7, 2026.
+This is a list of AI benchmarks I'm watching. Last updated June 11, 2026.
 
 - [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
+- [Boggs Benchmarks](https://boggs.tech/posts/benchmarks/)
 - [Bullshit Benchmark](https://petergpt.github.io/bullshit-benchmark/viewer/index.html)
 - [CAIS AI Dashboard](https://dashboard.safe.ai/)
 - [CursorBench](https://cursor.com/cursorbench)
@@ -21,6 +22,7 @@ This is a list of AI benchmarks I'm watching. Last updated June 7, 2026.
 - [EQ-Bench 3](https://eqbench.com/)
 - [EQ-Bench Creative Writing](https://eqbench.com/creative_writing_longform.html)
 - [ExploitBench](https://exploitbench.ai/#leaderboard)
+- [Frontier Code](https://cognition.ai/blog/frontier-code)
 - [FutureSearch Benchmarks](https://evals.futuresearch.ai/)
 - [GBA Eval](https://gbaeval.com/leaderboard)
 - [Gert Labs Rankings](https://gertlabs.com/rankings)
