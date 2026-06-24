@@ -1,5 +1,5 @@
 ---
-title: "Perplexity is still better at quick searches"
+title: "Perplexity Is Still Better at Quick Searches"
 slug: "perplexity-better-at-quick-searches"
 date: 2025-04-25T02:13:00+00:00
 draft: false

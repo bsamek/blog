@@ -1,5 +1,5 @@
 ---
-title: "From working in the business to working on it"
+title: "From Working in the Business to Working on It"
 slug: "from-working-in-the-business-to-working-on-it"
 date: 2026-04-12T00:00:00+00:00
 draft: false

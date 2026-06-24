@@ -1,5 +1,5 @@
 ---
-title: "Pareto frontier LLMs, Aider edition"
+title: "Pareto Frontier LLMs, Aider Edition"
 slug: "pareto-frontier-llms-aider-edition"
 date: 2025-05-08T04:42:00+00:00
 draft: false

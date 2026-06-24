@@ -1,5 +1,5 @@
 ---
-title: "When a change feels risky"
+title: "When a Change Feels Risky"
 slug: "risky-ai-changes"
 date: 2026-06-12T00:00:00-04:00
 draft: false

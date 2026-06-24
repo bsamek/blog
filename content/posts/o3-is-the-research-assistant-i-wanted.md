@@ -1,5 +1,5 @@
 ---
-title: "o3 is the research assistant I wanted"
+title: "o3 Is the Research Assistant I Wanted"
 slug: "o3-is-the-research-assistant-i-wanted"
 date: 2025-04-30T19:03:00+00:00
 draft: false

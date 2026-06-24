@@ -1,5 +1,5 @@
 ---
-title: "Coding agent with Simon Willison's llm"
+title: "Coding Agent with Simon Willison's LLM"
 slug: "coding-agent-with-simon-willisons-llm"
 date: 2025-05-28T01:46:00+00:00
 draft: false

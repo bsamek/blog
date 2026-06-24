@@ -1,5 +1,5 @@
 ---
-title: "Steam engine time"
+title: "Steam Engine Time"
 slug: "steam-engine-time"
 date: 2025-04-27T21:27:00+00:00
 draft: false

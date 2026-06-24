@@ -1,5 +1,5 @@
 ---
-title: "Benchmarks I'm watching now"
+title: "Benchmarks I'm Watching Now"
 slug: "benchmarks-im-watching-now"
 date: 2025-10-20T00:59:00+00:00
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Reflections on prototyping a sysadmin benchmark"
+title: "Reflections on Prototyping a Sysadmin Benchmark"
 slug: "reflections-on-prototyping-a-sysadmin-benchmark"
 date: 2026-02-13T19:42:00+00:00
 draft: false

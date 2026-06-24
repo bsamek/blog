@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT's improved search"
+title: "ChatGPT's Improved Search"
 slug: "chatgpts-improved-search"
 date: 2025-04-28T21:12:23.616321+00:00
 draft: false

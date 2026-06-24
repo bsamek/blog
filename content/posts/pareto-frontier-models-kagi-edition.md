@@ -1,5 +1,5 @@
 ---
-title: "Pareto frontier LLMs, Kagi edition"
+title: "Pareto Frontier LLMs, Kagi Edition"
 slug: "pareto-frontier-models-kagi-edition"
 date: 2025-05-03T17:58:00+00:00
 draft: false

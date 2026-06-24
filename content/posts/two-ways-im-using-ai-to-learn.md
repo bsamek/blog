@@ -1,5 +1,5 @@
 ---
-title: "Two ways I'm using AI to learn"
+title: "Two Ways I'm Using AI to Learn"
 slug: "two-ways-im-using-ai-to-learn"
 date: 2026-03-29T00:00:00+00:00
 draft: true

@@ -1,5 +1,5 @@
 ---
-title: "Model Context Protocol, simply"
+title: "Model Context Protocol, Simply"
 slug: "model-context-protocol-simply"
 date: 2025-05-01T20:06:00+00:00
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Dia browser"
+title: "Dia Browser"
 slug: "dia-browser"
 date: 2025-06-13T05:14:00+00:00
 draft: false

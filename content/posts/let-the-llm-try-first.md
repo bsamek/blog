@@ -1,5 +1,5 @@
 ---
-title: "Let the LLM try first"
+title: "Let the LLM Try First"
 slug: "let-the-llm-try-first"
 date: 2026-03-11T16:23:00+00:00
 draft: false
