@@ -7,7 +7,7 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated June 11, 2026.
+This is a list of AI benchmarks I'm watching. Last updated July 16, 2026.
 
 - [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
@@ -23,9 +23,9 @@ This is a list of AI benchmarks I'm watching. Last updated June 11, 2026.
 - [ExploitBench](https://exploitbench.ai/#leaderboard)
 - [Frontier Code](https://cognition.ai/blog/frontier-code)
 - [FutureSearch Benchmarks](https://evals.futuresearch.ai/)
+- [Game Dev Bench](https://waynechi.com/gamedevbench/)
 - [GBA Eval](https://gbaeval.com/leaderboard)
 - [Gert Labs Rankings](https://gertlabs.com/rankings)
-- [Kagi LLM Benchmark](https://help.kagi.com/kagi/ai/llm-benchmark.html)
 - [lechmazur benchmarks](https://github.com/lechmazur?tab=repositories)
 - [LiveBench](https://livebench.ai/#/)
 - [LMArena](https://lmarena.ai/leaderboard)
@@ -37,6 +37,7 @@ This is a list of AI benchmarks I'm watching. Last updated June 11, 2026.
 - [RuneScape Bench](https://maxbittker.github.io/runebench/)
 - [Scale Labs](https://labs.scale.com/leaderboard)
 - [SimpleBench](https://simple-bench.com/)
+- [Skills Bench](https://www.skillsbench.ai/leaderboard)
 - [SWE-Marathon](https://swe-marathon.vercel.app/)
 - [SWE-rebench](https://swe-rebench.com/)
 - [Terminal-Bench](https://www.tbench.ai/leaderboard/terminal-bench/2.0)
