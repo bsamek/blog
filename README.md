@@ -19,4 +19,4 @@ npx wrangler login    # first use, or when the saved login expires
 
 The script builds Hugo and deploys to the Cloudflare Pages project `blog`. Check authentication with `npx wrangler whoami`.
 
-OAuth deployment does not require `.env.deploy`. For the optional 1Password API-token method, see [AGENTS.md](AGENTS.md#deploy).
+Use Wrangler OAuth exclusively for deployment. If authentication expires, run `npx wrangler login` again and complete the browser authorization.

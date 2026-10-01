@@ -33,15 +33,7 @@ npx wrangler login    # first use, or when the saved login expires
 ./deploy.sh
 ```
 
-Wrangler saves the OAuth login for later deployments. Use `npx wrangler whoami` to check authentication. No `.env.deploy` file or API token is required for this flow.
-
-Alternatively, use a Cloudflare API token supplied through 1Password:
-
-```bash
-op run --env-file .env.deploy -- ./deploy.sh
-```
-
-Only this API-token method needs `.env.deploy`. The file is ignored and should contain the local 1Password reference for `CLOUDFLARE_API_TOKEN`.
+Use Wrangler OAuth exclusively for deployment. Wrangler saves the login for later deployments; use `npx wrangler whoami` to check authentication. If the login has expired, run `npx wrangler login` and have the user complete the browser authorization before deploying.
 
 ## Commit / Push / Deploy workflow
 
@@ -49,6 +41,6 @@ Only this API-token method needs `.env.deploy`. The file is ignored and should c
 
 When the user asks for any step, always run all preceding steps first:
 
-- **"deploy"** → commit, push, then deploy (via `./deploy.sh` after Wrangler login, or the optional 1Password API-token method)
+- **"deploy"** → commit, push, then deploy (via `./deploy.sh` after Wrangler OAuth login)
 - **"push"** → commit, then push
 - **"commit"** → commit only
