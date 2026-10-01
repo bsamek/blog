@@ -24,11 +24,24 @@ Posts render at the site root, not under `/posts/`: a post with slug `foo` is li
 
 ## Deploy
 
+`./deploy.sh` builds Hugo and deploys to the Cloudflare Pages project `blog` using Wrangler.
+
+For local deployment, authenticate with Cloudflare's browser OAuth flow:
+
+```bash
+npx wrangler login    # first use, or when the saved login expires
+./deploy.sh
+```
+
+Wrangler saves the OAuth login for later deployments. Use `npx wrangler whoami` to check authentication. No `.env.deploy` file or API token is required for this flow.
+
+Alternatively, use a Cloudflare API token supplied through 1Password:
+
 ```bash
 op run --env-file .env.deploy -- ./deploy.sh
 ```
 
-This builds Hugo and deploys to Cloudflare Pages. `.env.deploy` is ignored and should contain the local 1Password reference for `CLOUDFLARE_API_TOKEN`.
+Only this API-token method needs `.env.deploy`. The file is ignored and should contain the local 1Password reference for `CLOUDFLARE_API_TOKEN`.
 
 ## Commit / Push / Deploy workflow
 
@@ -36,6 +49,6 @@ This builds Hugo and deploys to Cloudflare Pages. `.env.deploy` is ignored and s
 
 When the user asks for any step, always run all preceding steps first:
 
-- **"deploy"** → commit, push, then deploy (via `op run --env-file .env.deploy -- ./deploy.sh`)
+- **"deploy"** → commit, push, then deploy (via `./deploy.sh` after Wrangler login, or the optional 1Password API-token method)
 - **"push"** → commit, then push
 - **"commit"** → commit only
