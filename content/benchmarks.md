@@ -11,8 +11,7 @@ This is a list of AI benchmarks I'm watching. Last updated October 30, 2026.
 
 - [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
-- [Agent Arena](https://arena.ai/leaderboard/agent)
-- [Arena Text](https://arena.ai/leaderboard/chat/text)
+- [Agent Arena](https://arena.ai/leaderboard/agent) and [Arena Text](https://arena.ai/leaderboard/chat/text)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
 - [DeepSWE](https://deepswe.datacurve.ai/)
 - [Epoch AI Models](https://epoch.ai/models/search)
