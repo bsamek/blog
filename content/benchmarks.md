@@ -7,7 +7,7 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated October 30, 2026.
+This is a list of AI benchmarks I'm watching. Last updated November 2, 2026.
 
 - [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
@@ -15,6 +15,7 @@ This is a list of AI benchmarks I'm watching. Last updated October 30, 2026.
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
 - [DeepSWE](https://deepswe.datacurve.ai/)
 - [Epoch AI Models](https://epoch.ai/models/search)
+- [FrontierCode](https://cognition.com/frontiercode)
 - [GameDevBench](https://waynechi.com/gamedevbench/)
 - [Gert Labs Rankings](https://gertlabs.com/rankings)
 - [LiveBench](https://livebench.ai/#/)
