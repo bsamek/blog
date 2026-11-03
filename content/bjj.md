@@ -10,4 +10,4 @@ menu:
     weight: 4
 ---
 
-This is me learning and building in public.
+I’m gradually adding to this flowchart as I take BJJ classes.

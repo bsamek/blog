@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="bjj-intro" aria-labelledby="bjj-title">
-  <h1 id="bjj-title">{{ .Title }}</h1>
+  <h1 id="bjj-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
   {{ .Content }}
 </section>
 <div class="bjj-app">

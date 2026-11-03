@@ -10,7 +10,7 @@ Brian selected **Map** as the default landing view. Preserve selection, pan/zoom
 
 Opening copy approved by Brian:
 
-> This is me learning and building in public.
+> I’m gradually adding to this flowchart as I take BJJ classes.
 
 ## Options
 
