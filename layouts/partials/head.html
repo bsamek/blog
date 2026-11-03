@@ -7,3 +7,7 @@
 {{ with .OutputFormats.Get "RSS" }}
 <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
 {{ end }}
+{{ if .Params.bjj_page }}
+{{ $bjjStyle := resources.Get "css/bjj.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $bjjStyle.RelPermalink }}">
+{{ end }}

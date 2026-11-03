@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="bjj-intro" aria-labelledby="bjj-title">
+  <h1 id="bjj-title">{{ .Title }}</h1>
+  {{ .Content }}
+</section>
+<div class="bjj-app">
+<header class="bar">
+  <div class="brand">
+    <span id="stats" class="stats"></span>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Views">
+    <button role="tab" id="tab-map" data-view="map" aria-controls="view-map">Map</button>
+    <button role="tab" id="tab-explorer" data-view="explorer" aria-controls="view-explorer">Explorer</button>
+  </nav>
+</header>
+<div id="problems" class="problems" role="alert" hidden></div>
+<div class="bjj-views">
+  <section id="view-map" class="view" role="tabpanel" aria-labelledby="tab-map">
+    <div class="map-layout">
+      <div class="map-canvas">
+        <div id="cy" role="img" aria-label="Flowchart of positions and techniques"></div>
+        <div class="map-tools">
+          <button id="map-fit" class="tool">Fit to screen</button>
+          <button id="map-clear" class="tool">Clear selection</button>
+        </div>
+      </div>
+      <aside id="map-panel" class="panel" aria-live="polite"></aside>
+    </div>
+  </section>
+  <section id="view-explorer" class="view" role="tabpanel" aria-labelledby="tab-explorer" hidden>
+    <div class="ex-layout">
+      <aside class="ex-nav">
+        <label class="eyebrow" for="ex-search">Positions</label>
+        <input id="ex-search" type="search" placeholder="Find a position" autocomplete="off">
+        <div id="ex-list" class="ex-list"></div>
+      </aside>
+      <div id="ex-main" class="ex-main" aria-live="polite"></div>
+    </div>
+  </section>
+</div>
+<noscript><p>This flowchart needs JavaScript to display the Map and Explorer.</p></noscript>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/cytoscape@3.30.2/dist/cytoscape.min.js" integrity="sha384-IWROdLKRsN1UuJywMlWl7/blXQ8GEooN2n7dzTxfEPd7ybYIKCUJ2Ol/1Gpf3YV4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/dagre@0.8.5/dist/dagre.min.js" integrity="sha384-2IH3T69EIKYC4c+RXZifZRvaH5SRUdacJW7j6HtE5rQbvLhKKdawxq6vpIzJ7j9M" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.js" integrity="sha384-u69h9ebXeSjlg6q/rb1zKTRAGu/h8deCl0409xpS/QJctMKnc4M9Fzkm01VOQdeF" crossorigin="anonymous"></script>
+<script src="{{ "bjj/data.js" | relURL }}"></script>
+<script src="{{ "bjj/app.js" | relURL }}"></script>
+{{ end }}

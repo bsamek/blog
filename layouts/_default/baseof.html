@@ -3,7 +3,7 @@
 <head>
   {{- partial "head.html" . -}}
 </head>
-<body>
+<body{{ if .Params.bjj_page }} class="bjj-page"{{ end }}>
   <div class="site-layout">
     <aside class="sidebar">
       <a href="/"><img src="/images/headshot-no-background.png" alt="Brian Samek" class="sidebar-avatar"></a>

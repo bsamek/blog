@@ -44,3 +44,11 @@ When the user asks for any step, always run all preceding steps first:
 - **"deploy"** → commit, push, then deploy (via `./deploy.sh` after Wrangler OAuth login)
 - **"push"** → commit, then push
 - **"commit"** → commit only
+
+## BJJ Flowchart
+
+The application lives at `/bjj/` and opens in Map by default. `static/bjj/data.js` is the single source of truth for positions and techniques; `static/bjj/app.js` implements Map and Explorer. The page template is `layouts/bjj/single.html`, with scoped styles in `assets/css/bjj.css` and introductory copy/menu entry in `content/bjj.md`.
+
+Add only Brian's recorded learning or additions he requests and sources verify. Preserve IDs, qualifications, provenance, and uncertainty. SLX is canonical for ashi; shallow K guard and K guard remain distinct. Empty outgoing lists mean nothing recorded yet. Unspecified finishes must remain unspecified. Source titles must remain visible even without a URL. Both views share technique cards and must not hard-code technique content.
+
+Verify affected interactions in both views, in light/dark mode and at 390px phone width. Preserve script order and the pinned CDN scripts' integrity hashes. See `docs/bjj-migration.md` for migration details. The former BJJ repository and its private vault are not build inputs.
