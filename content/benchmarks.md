@@ -7,7 +7,7 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated November 2, 2026.
+This is a list of AI benchmarks I'm watching. Last updated November 7, 2026.
 
 - [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
@@ -20,6 +20,7 @@ This is a list of AI benchmarks I'm watching. Last updated November 2, 2026.
 - [Gert Labs Rankings](https://gertlabs.com/rankings)
 - [LiveBench](https://livebench.ai/#/)
 - [Mercor Apex](https://www.mercor.com/apex/)
+- [OpenCode Data](https://opencode.ai/data)
 - [RuneScape Bench](https://maxbittker.github.io/runebench/)
 - [SimpleBench](https://simple-bench.com/)
 - [Toloka Arena](https://toloka.ai/arena)
