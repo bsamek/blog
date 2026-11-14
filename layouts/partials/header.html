@@ -2,7 +2,7 @@
   <nav>
     <a href="/" class="site-title">{{ .Site.Title }}</a>
     <div class="nav-links">
-      {{ range .Site.Menus.main }}
+      {{ range .Site.Menus.main.ByName }}
       <a href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
     </div>

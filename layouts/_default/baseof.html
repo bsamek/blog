@@ -12,8 +12,8 @@
       <div class="sidebar-menu">
       <nav>
         {{ $currentURL := .RelPermalink }}
-        {{ range .Site.Menus.main }}
-        {{ $isActive := or (eq .URL $currentURL) (and (eq .URL "/") (hasPrefix $currentURL "/posts/")) }}
+        {{ range .Site.Menus.main.ByName }}
+        {{ $isActive := or (eq .URL $currentURL) (and (eq .URL "/posts/") (eq $.Section "posts")) }}
         <a href="{{ .URL }}"{{ if $isActive }} class="active"{{ end }}>{{ .Name }}</a>
         {{ end }}
       </nav>

@@ -14,10 +14,14 @@ locale = "en-us"
     url = "/about-me/"
     weight = 1
   [[menu.main]]
-    name = "Benchmarks"
+    name = "AI Benchmarks"
     url = "/benchmarks/"
     weight = 2
   [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = "/"
+    weight = 0
+  [[menu.main]]
+    name = "Writing"
+    url = "/posts/"
     weight = 3

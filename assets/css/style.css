@@ -302,3 +302,75 @@ mark {
   font-size: 0.85rem;
 }
 
+/* Homepage */
+.home-intro {
+  padding-top: .5rem;
+}
+
+.home-intro h1 {
+  font-size: 2.4rem;
+  line-height: 1.15;
+  letter-spacing: -.045em;
+  margin-bottom: .8rem;
+}
+
+.home-intro p {
+  margin-bottom: 1rem;
+}
+
+.home-section {
+  border-top: 1px solid var(--border);
+  padding-top: 1.6rem;
+  margin-top: 2rem;
+}
+
+.home-section h2 {
+  font-size: 1.1rem;
+  font-weight: 650;
+  letter-spacing: -.01em;
+}
+
+.section-note {
+  color: var(--meta);
+  font-size: .9rem;
+  margin: .3rem 0 1.4rem;
+}
+
+.selected-item {
+  margin-bottom: 1.3rem;
+}
+
+.selected-item > a, .project-item > a {
+  font-weight: 550;
+  font-size: 1rem;
+}
+
+.selected-item p, .project-item p {
+  font-size: .9rem;
+  margin-top: .2rem;
+}
+
+.selected-item time {
+  display: block;
+  margin-top: .2rem;
+  font-size: .78rem;
+  color: var(--meta);
+}
+
+.all-writing {
+  font-size: .9rem;
+}
+
+.project-item {
+  margin-top: 1.1rem;
+}
+
+.home-intro .home-contact {
+  font-size: .9rem;
+}
+
+@media (max-width: 600px) {
+  .home-intro h1 {
+    font-size: 2.1rem;
+  }
+}

@@ -1,10 +1,46 @@
 {{ define "main" }}
-<ul class="post-list">
-  {{ range where .Site.RegularPages "Section" "posts" }}
-  <li>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
-  </li>
-  {{ end }}
-</ul>
+  {{ $workingOnTheBusiness := .Site.GetPage "/posts/from-working-in-the-business-to-working-on-it" }}
+  {{ $sysadminBenchmark := .Site.GetPage "/posts/reflections-on-prototyping-a-sysadmin-benchmark" }}
+  {{ $letTheLLMTryFirst := .Site.GetPage "/posts/let-the-llm-try-first" }}
+
+  <div class="home-intro">
+    <h1>I'm Brian Samek.</h1>
+    <p>I'm a Staff Engineer at MongoDB, where I've spent a decade working on developer productivity, CI/CD, and developer infrastructure.</p>
+    <p>I started as a sysadmin in public and university libraries. These days, I’m exploring how AI changes how we build software.</p>
+    <p>I live in NYC.</p>
+    <p class="home-contact"><a href="mailto:brian@samek.fyi">Email me ↗</a></p>
+  </div>
+
+  <section class="home-section">
+    <h2>Selected writing</h2>
+    <p class="section-note">A few observations from building and experimenting.</p>
+    <div class="selected-item">
+      <a href="{{ $workingOnTheBusiness.RelPermalink }}">{{ $workingOnTheBusiness.Title }}</a>
+      <p>Faster coding makes it more worthwhile to improve testing, deployment, and feedback from users.</p>
+      <time datetime="{{ $workingOnTheBusiness.Date.Format "2006-01" }}">{{ $workingOnTheBusiness.Date.Format "January 2006" }}</time>
+    </div>
+    <div class="selected-item">
+      <a href="{{ $sysadminBenchmark.RelPermalink }}">{{ $sysadminBenchmark.Title }}</a>
+      <p>I built a benchmark for troubleshooting servers, then ran into questions about task design and whether I could trust the results.</p>
+      <time datetime="{{ $sysadminBenchmark.Date.Format "2006-01" }}">{{ $sysadminBenchmark.Date.Format "January 2006" }}</time>
+    </div>
+    <div class="selected-item">
+      <a href="{{ $letTheLLMTryFirst.RelPermalink }}">{{ $letTheLLMTryFirst.Title }}</a>
+      <p>Giving an LLM the whole problem can turn up solutions I wouldn't have thought to ask for.</p>
+      <time datetime="{{ $letTheLLMTryFirst.Date.Format "2006-01" }}">{{ $letTheLLMTryFirst.Date.Format "January 2006" }}</time>
+    </div>
+    <a class="all-writing" href="/posts/">All writing →</a>
+  </section>
+
+  <section class="home-section">
+    <h2>Projects &amp; notes</h2>
+    <div class="project-item">
+      <a href="/benchmarks/">AI benchmarks →</a>
+      <p>The evaluations and leaderboards I'm keeping an eye on.</p>
+    </div>
+    <div class="project-item">
+      <a href="/bjj/">BJJ Flowchart →</a>
+      <p>A growing map of the positions and techniques I'm learning in class.</p>
+    </div>
+  </section>
 {{ end }}
