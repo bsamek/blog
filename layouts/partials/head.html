@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}Brian Samek | {{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
 {{ $style := resources.Get "css/style.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 {{ with .OutputFormats.Get "RSS" }}

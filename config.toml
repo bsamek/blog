@@ -10,10 +10,6 @@ locale = "en-us"
 
 [menu]
   [[menu.main]]
-    name = "About Me"
-    url = "/about-me/"
-    weight = 1
-  [[menu.main]]
     name = "AI Benchmarks"
     url = "/benchmarks/"
     weight = 2
