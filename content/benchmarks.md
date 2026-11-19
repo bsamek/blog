@@ -7,7 +7,8 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated November 18, 2026.
+This is a list of AI benchmarks I'm watching.
+<time datetime="2026-11-18">Last updated November 18, 2026.</time>
 
 - [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
