@@ -7,11 +7,11 @@ url: /benchmarks/
 hide_header: true
 ---
 
-This is a list of AI benchmarks I'm watching. Last updated November 12, 2026.
+This is a list of AI benchmarks I'm watching. Last updated November 18, 2026.
 
 - [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
-- [Agent Arena](https://arena.ai/leaderboard/agent) and [Arena Text](https://arena.ai/leaderboard/chat/text)
+- [Arena](https://arena.ai/leaderboard/all)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
 - [DeepSWE](https://deepswe.datacurve.ai/)
 - [Epoch AI Models](https://epoch.ai/models/search)
