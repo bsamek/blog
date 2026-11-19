@@ -20,8 +20,6 @@ This is a list of AI benchmarks I'm watching. Last updated November 18, 2026.
 - [Gert Labs Rankings](https://gertlabs.com/rankings)
 - [LiveBench](https://livebench.ai/#/)
 - [Mercor Apex](https://www.mercor.com/apex/)
-- [OpenCode Data](https://opencode.ai/data)
-- [OpenRouter Rankings](https://openrouter.ai/rankings)
 - [RuneScape Bench](https://maxbittker.github.io/runebench/)
 - [SimpleBench](https://simple-bench.com/)
 - [Toloka Arena](https://toloka.ai/arena)
