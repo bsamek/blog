@@ -5,7 +5,7 @@ date: 2026-03-11T16:23:00+00:00
 draft: false
 ---
 
-I had an deck in Anki, a flashcards app, with an annoying problem that I had caused when I imported the cards. On some cards, the front of the card had text that linked to a URL. On others, the URL was only on the back, which meant I couldn't click it when I actually wanted it.
+I had a deck in Anki, a flashcards app, with an annoying problem that I had caused when I imported the cards. On some cards, the front of the card had text that linked to a URL. On others, the URL was only on the back, which meant I couldn't click it when I actually wanted it.
 
 My first instinct was to export the deck to CSV, use AI to write a script to transform it, and then import it again. But in a moment of laziness and curiosity, I just asked Claude Code to fix it. I assumed Claude Code didn't have access to the application, so it couldn't fix it. I could have used Claude Code's Chrome extension, since Anki has a web version, but I didn't want to deal with the slowness of all that clicking.
 

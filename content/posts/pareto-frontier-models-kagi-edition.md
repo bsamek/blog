@@ -11,7 +11,7 @@ Kagi [benchmarks](https://help.kagi.com/kagi/ai/llm-benchmark.html) LLMs on a pr
 
 Claude has the strange property of doing well on some benchmarks and not others. It creates [half as much slop](https://eqbench.com/creative_writing_longform.html) in longform writing as Gemini and OpenAI models, for example, and [does](https://web.lmarena.ai/leaderboard) [well](https://livebench.ai/) in a number of coding benchmarks, while doing [much worse](https://scale.com/leaderboard/humanitys_last_exam_text_only) than other frontier models in other benchmarks.
 
-LLama 4 Maverick is at the frontier, and GPT-4.1-mini is quite close. But GPT-4.1 isn't near the frontier, which surprised me. It's much worse than the slightly cheaper Gemini 2.5 Pro.
+Llama 4 Maverick is at the frontier, and GPT-4.1-mini is quite close. But GPT-4.1 isn't near the frontier, which surprised me. It's much worse than the slightly cheaper Gemini 2.5 Pro.
 
 Here are the 8 frontier models. I also included GPT-4.1-mini, since it's so close.
 

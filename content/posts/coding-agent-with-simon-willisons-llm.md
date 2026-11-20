@@ -5,20 +5,20 @@ date: 2025-05-28T01:46:00+00:00
 draft: false
 ---
 
-Simon Willison [released](https://simonwillison.net/2025/May/27/llm-tools/) tool calling in his [llm](https://llm.datasette.io/) CLI. A tool is just a python function. Inspired by [Coding agent in 94 lines of Ruby](https://radanskoric.com/articles/coding-agent-in-ruby), I wrote a coding agent in Python. Here's the [code](https://github.com/bsamek/llm-tools-editor/blob/c26911127fe16a7d475fcccc6d9c43ecc47ae7d4/llm_tools_editor.py).
+Simon Willison [released](https://simonwillison.net/2025/May/27/llm-tools/) tool calling in his [llm](https://llm.datasette.io/) CLI. A tool is just a Python function. Inspired by [Coding agent in 94 lines of Ruby](https://radanskoric.com/articles/coding-agent-in-ruby), I wrote a coding agent in Python. Here's the [code](https://github.com/bsamek/llm-tools-editor/blob/c26911127fe16a7d475fcccc6d9c43ecc47ae7d4/llm_tools_editor.py).
 
 aider helpfully [explains](https://aider.chat/docs/more/edit-formats.html) the various editing formats people use for LLMs:
 
 1. **whole** returns an entirely new document.
 2. **diff** is a series of search and replace blocks.
-3. **diff-fenced** is like diffs but puts the filename inside the fence. gemini models prefer this.
+3. **diff-fenced** is like diffs but puts the filename inside the fence. Gemini models prefer this.
 4. **udiff** is a more familiar diff format, but only used for GPT-4 Turbo.
 
 So I picked diff.
 
-I implemented `read_file`, `list_files`, and `apply_diff`. Or rather, o4-mini did. Cloning other tools examples and passing them as fragments worked well.
+I implemented `read_file`, `list_files`, and `apply_diff`. Or rather, o4-mini did. Cloning examples of other tools and passing them as fragments worked well.
 
-Here's what it looks like. Adding `--td` shows the tool calls that the tools is making. My default model is gpt-4.1.
+Here's what it looks like. Adding `--td` shows the tool calls that the model is making. My default model is gpt-4.1.
 
 ```
 $ llm -t editor "Add me as an author to the pyproject.toml" -T read_file -T list_files -T apply_diff --td
