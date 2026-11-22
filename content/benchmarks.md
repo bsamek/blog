@@ -15,7 +15,6 @@ This is a list of AI benchmarks I'm watching.
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
 - [Epoch AI Models](https://epoch.ai/models/search)
 - [FrontierCode](https://cognition.com/frontiercode)
-- [GameDevBench](https://waynechi.com/gamedevbench/)
 - [Gert Labs Rankings](https://gertlabs.com/rankings)
 - [LiveBench](https://livebench.ai/#/)
 - [Mercor Apex](https://www.mercor.com/apex/)
