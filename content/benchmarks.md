@@ -8,9 +8,8 @@ hide_header: true
 ---
 
 This is a list of AI benchmarks I'm watching.
-<time datetime="2026-11-18">Last updated November 18, 2026.</time>
+<time datetime="2026-11-22">Last updated November 22, 2026.</time>
 
-- [ALE-Bench](https://sakanaai.github.io/ALE-Bench-Leaderboard/)
 - [ARC Prize](https://arcprize.org/leaderboard)
 - [Arena](https://arena.ai/leaderboard/all)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
