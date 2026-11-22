@@ -13,7 +13,6 @@ This is a list of AI benchmarks I'm watching.
 - [ARC Prize](https://arcprize.org/leaderboard)
 - [Arena](https://arena.ai/leaderboard/all)
 - [Artificial Analysis](https://artificialanalysis.ai/leaderboards/models)
-- [DeepSWE](https://deepswe.datacurve.ai/)
 - [Epoch AI Models](https://epoch.ai/models/search)
 - [FrontierCode](https://cognition.com/frontiercode)
 - [GameDevBench](https://waynechi.com/gamedevbench/)
