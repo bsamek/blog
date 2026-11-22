@@ -19,7 +19,6 @@ This is a list of AI benchmarks I'm watching.
 - [Mercor Apex](https://www.mercor.com/apex/)
 - [RuneScape Bench](https://maxbittker.github.io/runebench/)
 - [SimpleBench](https://simple-bench.com/)
-- [Toloka Arena](https://toloka.ai/arena)
 - [Vals Index](https://www.vals.ai/benchmarks/vals_index)
 - [Vending-Bench 2](https://andonlabs.com/evals/vending-bench-2) and [Vending-Bench Arena](https://andonlabs.com/evals/vending-bench-arena)
 - [VoxelBench](https://voxelbench.ai/leaderboard)
