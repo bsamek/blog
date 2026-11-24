@@ -21,3 +21,12 @@ locale = "en-us"
     name = "Writing"
     url = "/posts/"
     weight = 3
+
+# Keep the legacy BJJ URLs for already-cached pages, and fingerprint the same sources for new pages.
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static/bjj"
+    target = "assets/bjj"
