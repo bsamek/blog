@@ -56,7 +56,7 @@ window.BJJ_DATA = {
       kind: "submission",
       name: "Woj lock (reverse Aoki lock)",
       trigger: "",
-      details: "Get their heel against your ribs.",
+      details: "Go to your side and wrap their ankle. Push their knee down. Work up to the calf to get their heel against your ribs. Go to your back and crunch sideways for the submission.",
       counters: [],
       sources: [
         { type: "class", date: "2026-11-23", title: "50/50 class" },
@@ -70,7 +70,7 @@ window.BJJ_DATA = {
       kind: "submission",
       name: "Toe hold",
       trigger: "Opponent figure-fours their legs in 50/50",
-      details: "I remember the figure-four grip as a “Kimura on the foot.”",
+      details: "Grab their toes and push them out, then “Kimura the foot.”",
       counters: [],
       sources: [
         { type: "class", date: "2026-11-23", title: "50/50 class" },
