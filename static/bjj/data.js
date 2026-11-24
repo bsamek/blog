@@ -34,6 +34,8 @@ window.BJJ_DATA = {
     { id: "x-guard", name: "X Guard", role: "guard" },
     { id: "butterfly-guard", name: "Butterfly Guard", role: "guard" },
     { id: "50-50", name: "50/50 Guard", role: "guard" },
+    { id: "50-50-locked-feet", name: "50/50 Guard", qualifier: "partner locks feet", role: "guard" },
+    { id: "50-50-heel-hook", name: "Heel Hook", qualifier: "50/50 attack", role: "submission" },
     { id: "side-control", name: "Side Control", qualifier: "top", role: "dominant" },
     { id: "woj-lock", name: "Woj Lock", qualifier: "reverse Aoki lock", role: "submission" },
     { id: "toe-hold", name: "Toe Hold", role: "submission" },
@@ -46,9 +48,55 @@ window.BJJ_DATA = {
     { id: "americana", name: "Americana", role: "submission" },
     { id: "rear-naked-choke", name: "Rear Naked Choke", role: "submission" },
     { id: "triangle", name: "Triangle", qualifier: "entry", role: "submission" },
-    { id: "straight-ankle-lock", name: "Straight Ankle Lock", qualifier: "entry", role: "submission" }
+    { id: "straight-ankle-lock", name: "Straight Ankle Lock", qualifier: "entry", role: "submission" },
+    { id: "standing", name: "Stand-up", role: "standing" },
+    { id: "single-leg-entry", name: "Single Leg", qualifier: "entry", role: "standing" }
   ],
   techniques: [
+    {
+      id: "standing-arm-drag-to-single-leg",
+      from: "standing",
+      to: "single-leg-entry",
+      kind: "transition",
+      name: "Arm drag → single leg",
+      trigger: "After the arm drag, the partner squares up and shifts weight, opening the single leg.",
+      details: "",
+      counters: [],
+      sources: [{ type: "class", date: "2026-11-24", title: "Stand-up sparring with coach" }]
+    },
+    {
+      id: "50-50-to-heel-hook",
+      from: "50-50",
+      to: "50-50-heel-hook",
+      kind: "submission",
+      name: "Heel hook from 50/50",
+      trigger: "",
+      details: "",
+      counters: [],
+      sources: [{ type: "class", date: "2026-11-24", title: "50/50 class recap" }]
+    },
+    {
+      id: "50-50-partner-locks-feet",
+      from: "50-50",
+      to: "50-50-locked-feet",
+      kind: "transition",
+      name: "Partner locks their feet",
+      trigger: "",
+      details: "",
+      counters: [],
+      sources: [{ type: "class", date: "2026-11-24", title: "50/50 class recap" }]
+    },
+    {
+      id: "50-50-locked-feet-to-heel-hook",
+      from: "50-50-locked-feet",
+      to: "50-50-heel-hook",
+      kind: "transition",
+      name: "Clear the locked feet",
+      trigger: "Partner locks their feet.",
+      details: "Clear the locked feet before returning to the heel hook.",
+      counters: [],
+      sources: [{ type: "class", date: "2026-11-24", title: "50/50 class recap" }]
+    },
     {
       id: "50-50-to-woj-lock",
       from: "50-50",

@@ -1,12 +1,13 @@
 (() => {
   const D = window.BJJ_DATA;
   const ROLES = {
+    standing: { label: "Standing" },
     guard: { label: "Guard" },
     dominant: { label: "Dominant" },
     defensive: { label: "Bad spot" },
     submission: { label: "Submission" }
   };
-  const ROLE_ORDER = ["guard", "dominant", "defensive", "submission"];
+  const ROLE_ORDER = ["standing", "guard", "dominant", "defensive", "submission"];
 
   const pos = Object.fromEntries(D.positions.map(p => [p.id, p]));
   const tech = Object.fromEntries(D.techniques.map(t => [t.id, t]));
