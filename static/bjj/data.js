@@ -33,6 +33,10 @@ window.BJJ_DATA = {
     { id: "slx", name: "SLX", role: "guard" },
     { id: "x-guard", name: "X Guard", role: "guard" },
     { id: "butterfly-guard", name: "Butterfly Guard", role: "guard" },
+    { id: "50-50", name: "50/50 Guard", role: "guard" },
+    { id: "side-control", name: "Side Control", qualifier: "top", role: "dominant" },
+    { id: "woj-lock", name: "Woj Lock", qualifier: "reverse Aoki lock", role: "submission" },
+    { id: "toe-hold", name: "Toe Hold", role: "submission" },
     { id: "mount", name: "Mount", role: "dominant" },
     { id: "bottom-mount", name: "Mount", qualifier: "bottom", role: "defensive" },
     { id: "top-position", name: "Top Position", qualifier: "sweep finish unspecified", role: "dominant" },
@@ -45,6 +49,45 @@ window.BJJ_DATA = {
     { id: "straight-ankle-lock", name: "Straight Ankle Lock", qualifier: "entry", role: "submission" }
   ],
   techniques: [
+    {
+      id: "50-50-to-woj-lock",
+      from: "50-50",
+      to: "woj-lock",
+      kind: "submission",
+      name: "Woj lock (reverse Aoki lock)",
+      trigger: "",
+      details: "The ankle lock from class. The cue I remember is feeling their heel against my ribs.",
+      counters: [],
+      sources: [
+        { type: "class", date: "2026-11-23", title: "50/50 class" },
+        { type: "article", date: "2026-11-23", title: "Terminology — Chris Wojcik on the reverse Aoki lock", url: "https://www.opennotegrappling.com/p/your-guide-to-the-future-of-ankle-locks" }
+      ]
+    },
+    {
+      id: "50-50-to-toe-hold",
+      from: "50-50",
+      to: "toe-hold",
+      kind: "submission",
+      name: "Toe hold",
+      trigger: "Opponent figure-fours their legs in 50/50",
+      details: "I remember the figure-four grip as a “Kimura on the foot.”",
+      counters: [],
+      sources: [
+        { type: "class", date: "2026-11-23", title: "50/50 class" },
+        { type: "article", date: "2026-11-23", title: "Terminology — Grapplearts on the figure-four toe hold", url: "https://www.grapplearts.com/wp-content/uploads/2012/04/No-gi-guard-passing.pdf" }
+      ]
+    },
+    {
+      id: "50-50-to-side-control",
+      from: "50-50",
+      to: "side-control",
+      kind: "pass",
+      name: "Escape the leg attack to side control",
+      trigger: "Opponent attacks your leg in 50/50, for example with the Woj lock",
+      details: "Push your trapped leg through and come up onto your other knee. The next cue was “use your hand to pull theirs out.” Step on their biceps, turn away, and move your leg to the other side. Get head-and-arm control, then sprawl into top side control.",
+      counters: [],
+      sources: [{ type: "class", date: "2026-11-23", title: "50/50 class" }]
+    },
     {
       id: "slx-to-x-guard",
       from: "slx",
