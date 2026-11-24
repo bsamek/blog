@@ -56,7 +56,7 @@ window.BJJ_DATA = {
       kind: "submission",
       name: "Woj lock (reverse Aoki lock)",
       trigger: "",
-      details: "The ankle lock from class. The cue I remember is feeling their heel against my ribs.",
+      details: "Get their heel against your ribs.",
       counters: [],
       sources: [
         { type: "class", date: "2026-11-23", title: "50/50 class" },
